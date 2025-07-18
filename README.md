@@ -8,6 +8,5 @@ Este projeto está em desenvolvimento! Ainda vou adicionar:
 - Versão final do Portfólio
 
 📌 Tecnologias: HTML, CSS, JS
-📱 Design inicial pensado para mobile first
 
 🔗 Acesse a versão online (GitHub Pages): https://github.com/mzkk085
