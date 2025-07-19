@@ -10,10 +10,10 @@ function toogleMode() {
   // Substituir a imagem
   if (html.classList.contains("light")) {
     // Se tiver light mode, adicionar a imagem light
-    img.setAttribute("src", "assets/avatar-light.png")
+    img.setAttribute("src", "assets/avatar-light.svg")
   } else {
     // Se tiver sem light mode, manter a imagem normal
-    img.setAttribute("src", "assets/avatar.png")
+    img.setAttribute("src", "assets/avatar.svg")
   }
 
   if (html.classList.contains("light")) {
