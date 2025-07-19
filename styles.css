@@ -26,6 +26,7 @@
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 
 body * {
@@ -162,5 +163,16 @@ footer {
 
   ul li a {
     padding: 10px 40px;
+  }
+}
+
+/* add media */
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(assets/bg-desktop-light.jpg);
   }
 }
