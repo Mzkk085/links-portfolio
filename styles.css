@@ -35,8 +35,7 @@ body * {
 }
 
 .container {
-  width: 100%;
-  max-width: 588px;
+  width: 360px;
   margin: 56px auto 0px;
   padding: 0 24px;
 }
@@ -163,11 +162,6 @@ footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
-}
-
-  ul li a {
-    padding: 10px 40px;
-  }
 }
 
 /* add media */
