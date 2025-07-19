@@ -85,11 +85,11 @@ body * {
   z-index: 1;
   transform: translateY(-50%);
   cursor: pointer;
+  animation: slide-back 0.2s;
 }
 
 .light .switch button {
-  left: calc(100% - 32px);
-  background-image: var(--switch-bg-url);
+  animation: slide-in 0.4s forwards;
 }
 
 .switch button:hover {
@@ -178,10 +178,27 @@ footer {
 @media (max-width: 600px) {
   .container {
   width: 100%;
-  height: auto;
   }
 
   ul li a {
     padding: 10px 40px;
+  }
+}
+
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: calc(100% - 32px);
+  }
+}
+
+@keyframes slide-back {
+  from {
+    left: calc(100% - 32px);
+  }
+  to {
+    left: 0;
   }
 }
